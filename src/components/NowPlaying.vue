@@ -13,7 +13,7 @@
         />
       </div>
       <div class="now-playing__details">
-        <h1 class="now-playing__track" v-text="player.trackTitle"></h1>
+        <h1 class="now-playing__track" v-text="Now Playing:"></h1>
         <h1 class="now-playing__track" v-text="player.trackTitle"></h1>
         <h2 class="now-playing__artists" v-text="getTrackArtists"></h2>
       </div>
